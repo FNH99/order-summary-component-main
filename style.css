@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    
+}
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    background-color: var(--Pale-blue);
+}
+
+.container {
+    width: 100%;
+    max-width: 325px;
+    background-color: white;
+    margin: 30px auto 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.app {
+    padding: 20px;
+}
+
+.text {
+    font-weight: 300; 
+    color: var(--Dark-blue);
+    
+}
+
+.text-top {
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-desc {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-main {
+    display: flex;
+    background-color: var(--Very-pale-blue);
+    border-radius: 0.75em;
+    padding: 0.75em;
+    
+}
+
+#icon-music {
+    scale: 70%;
+}
+
+.payment {
+    background-color: var(--Bright-blue);
+    text-align: center;
+    margin-top: 20px;
+    padding: 0.75rem;
+    border-radius: 0.75em;
+
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.cancel {
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 20px;
+    color: var(--Desaturated-blue);
+}
