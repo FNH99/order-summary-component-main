@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.images/screenshot.jpg)
+![](https://github.com/FNH99/order-summary-component-main/blob/master/images/screenshot.png)
 
 ### Links
 
