@@ -23,7 +23,7 @@ body {
     width: 100%;
     max-width: 325px;
     background-color: white;
-    margin: 10% auto 50px;
+    margin: 50px auto 50px;
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
 }
