@@ -37,7 +37,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
